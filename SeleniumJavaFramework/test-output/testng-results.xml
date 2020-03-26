@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22294" started-at="2020-03-26T07:18:45Z" finished-at="2020-03-26T07:19:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22294" started-at="2020-03-26T07:18:45Z" finished-at="2020-03-26T07:19:07Z">
+      <class name="testcases.TestNG_Demo">
+        <test-method status="PASS" signature="Test01_launchPage()[pri:1, instance:testcases.TestNG_Demo@2667f029]" name="Test01_launchPage" duration-ms="11700" started-at="2020-03-26T07:18:45Z" finished-at="2020-03-26T07:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_launchPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="341" started-at="2020-03-26T07:18:57Z" finished-at="2020-03-26T07:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="Test02_ApplyFilterFromYear()[pri:2, instance:testcases.TestNG_Demo@2667f029]" name="Test02_ApplyFilterFromYear" duration-ms="455" started-at="2020-03-26T07:18:57Z" depends-on-methods="testcases.TestNG_Demo.Test01_launchPage" finished-at="2020-03-26T07:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_ApplyFilterFromYear -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="50" started-at="2020-03-26T07:18:58Z" finished-at="2020-03-26T07:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="Test03_VerifyAppliedFilter()[pri:3, instance:testcases.TestNG_Demo@2667f029]" name="Test03_VerifyAppliedFilter" duration-ms="3217" started-at="2020-03-26T07:18:58Z" depends-on-methods="testcases.TestNG_Demo.Test02_ApplyFilterFromYear, testcases.TestNG_Demo.Test01_launchPage" finished-at="2020-03-26T07:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_VerifyAppliedFilter -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="23" started-at="2020-03-26T07:19:01Z" finished-at="2020-03-26T07:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="Test04_PriceDescendingOrder()[pri:4, instance:testcases.TestNG_Demo@2667f029]" name="Test04_PriceDescendingOrder" duration-ms="634" started-at="2020-03-26T07:19:01Z" depends-on-methods="testcases.TestNG_Demo.Test02_ApplyFilterFromYear, testcases.TestNG_Demo.Test01_launchPage" finished-at="2020-03-26T07:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_PriceDescendingOrder -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="35" started-at="2020-03-26T07:19:01Z" finished-at="2020-03-26T07:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="Test05_VerifyCarFilteredByFirstRegistration()[pri:5, instance:testcases.TestNG_Demo@2667f029]" name="Test05_VerifyCarFilteredByFirstRegistration" duration-ms="5385" started-at="2020-03-26T07:19:01Z" depends-on-methods="testcases.TestNG_Demo.Test04_PriceDescendingOrder, testcases.TestNG_Demo.Test02_ApplyFilterFromYear, testcases.TestNG_Demo.Test01_launchPage" finished-at="2020-03-26T07:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_VerifyCarFilteredByFirstRegistration -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="21" started-at="2020-03-26T07:19:07Z" finished-at="2020-03-26T07:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="Test06_VerifyCarSortedByPriceDescending()[pri:6, instance:testcases.TestNG_Demo@2667f029]" name="Test06_VerifyCarSortedByPriceDescending" duration-ms="385" started-at="2020-03-26T07:19:07Z" depends-on-methods="testcases.TestNG_Demo.Test04_PriceDescendingOrder, testcases.TestNG_Demo.Test02_ApplyFilterFromYear, testcases.TestNG_Demo.Test01_launchPage, testcases.TestNG_Demo.Test05_VerifyCarFilteredByFirstRegistration" finished-at="2020-03-26T07:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test06_VerifyCarSortedByPriceDescending -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.TestNG_Demo@2667f029]" name="quit" is-config="true" duration-ms="19" started-at="2020-03-26T07:19:07Z" finished-at="2020-03-26T07:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.TestNG_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
